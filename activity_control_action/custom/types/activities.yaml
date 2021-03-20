@@ -1,0 +1,30 @@
+synonym:
+  entities:
+    eat:
+      synonyms:
+      - eat
+    household:
+      synonyms:
+      - household
+    inactive:
+      synonyms:
+      - inactive
+    preparing food:
+      synonyms:
+      - preparing food
+    shower:
+      synonyms:
+      - shower
+    sport:
+      synonyms:
+      - sport
+    videogames:
+      synonyms:
+      - videogames
+    walk:
+      synonyms:
+      - walk
+    work:
+      synonyms:
+      - work
+  matchType: EXACT_MATCH

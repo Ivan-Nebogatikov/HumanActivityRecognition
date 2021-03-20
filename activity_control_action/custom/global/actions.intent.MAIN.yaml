@@ -1,0 +1,10 @@
+handler:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Welcome to Acitvity control module.
+        suggestions:
+        - title: Set activity duration
+transitionToScene: Main

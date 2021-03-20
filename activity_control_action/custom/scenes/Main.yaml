@@ -1,0 +1,3 @@
+intentEvents:
+- intent: Activity_Intent
+  transitionToScene: Activity_Scene

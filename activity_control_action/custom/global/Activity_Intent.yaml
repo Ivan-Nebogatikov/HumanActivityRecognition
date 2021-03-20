@@ -1,0 +1,3 @@
+handler:
+  webhookHandler: my_action
+transitionToScene: Main

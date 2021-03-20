@@ -1,0 +1,11 @@
+parameters:
+- name: period
+  type:
+    name: actions.type.Number
+- name: activities
+  type:
+    name: activities
+trainingPhrases:
+- configure ($activities 'inactive' auto=true) warning to ($period '2' auto=false)
+  hours
+- set ($activities 'eat' auto=false) warning time to ($period '10' auto=false) hours

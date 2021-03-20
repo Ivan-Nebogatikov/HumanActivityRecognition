@@ -1,0 +1,5 @@
+handlers:
+- name: my_action
+- name: activity_control_webhook
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment
