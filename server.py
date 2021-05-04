@@ -134,6 +134,10 @@ def recognize():
         current_activity = new_current_activity
         last_activity_start_date = datetime.now()
     print("Recognize time: " + str(round(time.time() * 1000) - start))
+
+    with open("c:\\logs.txt", "a") as logFile:
+        logFile.write("\n" + str(datetime.now()) + ", " + str(body['values']).replace("[", "").replace("]", "") + ", " + act + ", " + status)
+
     return json.dumps({'activity': act, 'status': status})
 
 
